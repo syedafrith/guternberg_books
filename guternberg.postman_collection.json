@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "91bc1bda-fe39-420d-9f4e-987376c7b6dc",
+		"name": "guternberg",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13420468",
+		"_collection_link": "https://martian-eclipse-264732.postman.co/workspace/Plant4.0~7539d964-50e6-4a3b-a7e8-551713992135/collection/13420468-91bc1bda-fe39-420d-9f4e-987376c7b6dc?action=share&source=collection_link&creator=13420468"
+	},
+	"item": [
+		{
+			"name": "books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/books/?page_no=1&book_id=1,24&language=en,fr&mimi_type=application/pdf&topic=child,infant&author=&title=adven",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"books",
+						""
+					],
+					"query": [
+						{
+							"key": "page_no",
+							"value": "1"
+						},
+						{
+							"key": "book_id",
+							"value": "1,24"
+						},
+						{
+							"key": "language",
+							"value": "en,fr"
+						},
+						{
+							"key": "mimi_type",
+							"value": "application/pdf"
+						},
+						{
+							"key": "topic",
+							"value": "child,infant"
+						},
+						{
+							"key": "author",
+							"value": ""
+						},
+						{
+							"key": "title",
+							"value": "adven"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
